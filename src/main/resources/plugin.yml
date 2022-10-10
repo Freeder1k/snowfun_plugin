@@ -1,3 +1,7 @@
 name: Snowfun
-main: com.hamfred.snowfun.snowfun
+main: com.hamfred.snowfun.Snowfun
 version: 1.0
+commands:
+  ping:
+    description: Pong!
+    usage: "Usage: '/ping' to get a response!"
