@@ -21,7 +21,7 @@ public class LauncherCommand implements CommandExecutor {
         ItemMeta meta = launcher.getItemMeta();
         meta.setDisplayName("§bSnowball Launcher");
 
-        NamespacedKey key = new NamespacedKey(plugin, "snowfun.launcher");
+        NamespacedKey key = new NamespacedKey(plugin, "launcher");
         meta.getPersistentDataContainer().set(key, PersistentDataType.BYTE, (byte) 1);
 
         launcher.setItemMeta(meta);
