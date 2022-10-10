@@ -5,3 +5,6 @@ commands:
   ping:
     description: Pong!
     usage: "Usage: '/ping' to get a response!"
+  launcher:
+    description: Get the snowball launcher.
+    usage: "Usage: '/launcher' for infinite fun!"
